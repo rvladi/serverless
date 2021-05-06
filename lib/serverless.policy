@@ -1,0 +1,7 @@
+grant {
+    permission java.net.SocketPermission "*", "connect,resolve";
+};
+
+grant codeBase "file:../lib/serverless.jar" {
+    permission java.security.AllPermission;
+};
